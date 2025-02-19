@@ -60,5 +60,5 @@ exec(base64.b64decode({repr(encoded_content)}).decode())
 
     return send_file(encrypted_filename, as_attachment=True)
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     app.run(debug=True, host="0.0.0.0", port=5000)
