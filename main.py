@@ -1,7 +1,7 @@
 from flask import Flask, request, render_template_string, send_file
 import base64
 
-app = Flask(_name_)
+app = Flask(__name__)
 
 # Green Neon Design (Same UI, Old Encryption)
 HTML_PAGE = """
